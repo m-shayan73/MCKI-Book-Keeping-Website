@@ -1,0 +1,63 @@
+h2{
+    font-size: 60px;
+}
+
+h2 b{
+    font-size: 60px;
+}
+
+.contact-section{
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+div#contact-text {
+    padding-right: 50px;
+}
+
+div#contact-form {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.form-select{
+    font-size: 15px;
+}
+
+.form-control{
+    font-size: 15px;
+}
+
+select option{
+    font-size: 13px;
+}
+
+@media (max-width: 767px){
+    h2{
+        font-size: 30px;
+    }
+    
+    h2 b{
+        font-size: 30px;
+    }
+
+    div#contact-text{
+        padding: 0px 10px;
+    }
+
+    div#contact-form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 991px){
+    .contact-section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    button.btn.btn-danger {
+        margin-bottom: 30px;
+    }
+}

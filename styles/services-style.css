@@ -1,0 +1,135 @@
+h2{
+    font-size: 55px;
+}
+
+h2 b{
+    font-size: 55px;
+}
+
+ul li{
+    line-height: 40px;
+}
+
+.col-sm-12.col-md-12.col-lg-6{
+    padding: 0px;
+}
+
+section{
+    padding: 60px 0px;
+}
+
+section.header{
+    padding: 0px !important;
+}
+
+/* button */
+.container.d-flex.justify-content-center.justify-content-md-start.align-items-center{
+    padding: 0px;
+}
+
+/* small-business-section */
+
+.small-business-section{
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+/* customized-section */
+
+section.customized-section {
+    background-image: url("https://mckibookkeeping.com/wp-content/uploads/2022/06/Rectangle-13-1.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* about-section */
+
+
+
+/* contact-section */
+
+section.contact-section{
+    background-image: url(https://mckibookkeeping.com/wp-content/uploads/2022/06/Rectangle-10-1.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#contact-text {
+    padding-right: 50px;
+}
+
+div#contact-form {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.form-select{
+    font-size: 15px;
+}
+
+.form-control{
+    font-size: 15px;
+}
+
+/*  */
+
+@media (max-width: 767px){
+    h2{
+        font-size: 30px;
+    }
+    
+    h2 b{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    ul li{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    div#contact-text{
+        padding: 0px 10px;
+    }
+
+    div#contact-form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 991px){
+    section{
+        padding: 40px 10px;
+    }
+
+    .small-business-section{
+        padding-top: 40px;
+        padding-bottom: 20px;
+        margin-left: unset;
+    }
+
+    button.btn.btn-danger {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (min-width: 1399px) {
+    .small-business-section{
+        margin-left: 15%;
+    }
+
+    div#customized-text{
+        padding-right: 15%;
+    }
+
+    div#about-text{
+        padding-left: 15%;
+    }
+}

@@ -1,0 +1,118 @@
+h2{
+    font-size: 60px;
+}
+
+h2 b{
+    font-size: 60px;
+}
+
+.col-sm-12.col-md-12.col-lg-6{
+    padding: 0px;
+}
+
+section{
+    padding: 60px 0px;
+}
+
+section.header{
+    padding: 0px !important;
+}
+
+/* button */
+.container.d-flex.justify-content-center.justify-content-md-end.align-items-center {
+    padding: 0px;
+}
+
+/* partner-section */
+
+.partner-section{
+    background-image: url(https://mckibookkeeping.com/wp-content/uploads/2022/06/Group-33.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* contact-section */
+
+section.contact-section{
+    background-image: url(https://mckibookkeeping.com/wp-content/uploads/2022/06/Rectangle-10-1.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#contact-text {
+    padding-right: 50px;
+}
+
+div#contact-form {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.form-select{
+    font-size: 15px;
+}
+
+.form-control{
+    font-size: 15px;
+}
+
+/*  */
+
+@media (max-width: 767px){
+    h2{
+        font-size: 30px;
+    }
+    
+    h2 b{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    div#contact-text{
+        padding: 0px 10px;
+    }
+
+    div#contact-form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 991px){
+    section{
+        padding: 30px 10px;
+    }
+
+    button.btn.btn-danger {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (min-width: 1399px) {
+    div#about-text-1{
+        padding-left: 15%;
+    }
+
+    div#about-pic-1{
+        padding-right: 15%;
+    }
+
+    div#about-text-2{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    div#partner-heading{
+        padding-left: 15%;
+    }
+
+    div#partner-pics{
+        padding-right: 15%;
+    }
+}
